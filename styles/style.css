@@ -1,0 +1,160 @@
+/* main elements */
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    /*background-color: #E2E2E3;*/
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(170,184,255,1) 100%);
+    width: 100%;
+    height: auto;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    background-color: #E2E2E3;
+    padding: 0 20px 20px 20px;
+    font-size: 12px;
+    /*border: 5px solid black;*/
+}
+
+/* headers */
+
+h1 {
+    font-size: 60px;
+    text-align: right;
+    margin: 0;
+    padding: 20px 0;
+
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+#mainTitle {
+    color: #516EFF;
+    border-bottom: 1em double #516EFF;
+}
+
+#theReckoningHeader {
+    color: crimson;
+}
+
+/* footers */
+
+footer {
+  margin-top: 30px;
+  font-size: 14px;
+  /*border-top: 5px solid white;
+  border-radius: 2px;*/
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+/* text */
+
+p {
+    font-size: 14;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+/*
+#mainParagraph {
+  font-size: 22px;
+  line-height: 1.25;
+}
+*/
+
+.mainContainer p {
+  margin-top: 0;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+/* images */
+
+#theReckoningImage {
+    width: auto;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid red;
+}
+
+#professionalImage {
+  width: auto;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.iphoneScreenshot {
+  border-radius: 10px;
+}
+
+/* buttons */
+
+/* links */
+
+.navBar {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+}
+
+.navBar li {
+  display: inline;
+
+  padding: 10px;
+  border-radius: 2.5px;
+  background-color: white;
+  flex: 1;
+}
+
+.navBar li:hover {
+  background-color: grey;
+}
+
+/* div */
+
+#homeContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+#resumeContainer img {
+  width: 100%;
+}
+
+.BBGTImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.BBGTImages img {
+  align-self: center;
+  justify-self: center;
+  width: 80%;
+
+}
+
+.spaceAgeImages {
+  text-align: center;
+}
+
+.spaceAgeImages img {
+  width: 80%;
+  padding: 15px;
+}
