@@ -159,11 +159,11 @@ p {
   padding: 15px;
 }
 
-.mlCloudImages {
+div.mlCloudImages {
   text-align: center;
 }
 
-.mlCloudImages img {
+div.mlCloudImages img {
   width: 80%;
   padding: 15px;
 }
